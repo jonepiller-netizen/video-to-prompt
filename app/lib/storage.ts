@@ -1,12 +1,12 @@
 const KEY_API_KEY = "v2p:gemini_api_key";
 const KEY_MODEL = "v2p:gemini_model";
 
-export const DEFAULT_MODEL = "gemini-2.5-pro";
+export const DEFAULT_MODEL = "gemini-3.1-pro-preview";
 
 export const SUPPORTED_MODELS = [
-  { id: "gemini-2.5-pro", label: "Gemini 2.5 Pro (recommended — best video understanding)" },
-  { id: "gemini-2.5-flash", label: "Gemini 2.5 Flash (faster, cheaper)" },
-  { id: "gemini-2.0-flash", label: "Gemini 2.0 Flash" },
+export const SUPPORTED_MODELS = [
+  { id: "gemini-3.1-pro-preview", label: "Gemini 3.1 Pro" },
+  { id: "gemini-3.6-flash", label: "Gemini 3.6 Flash" },
 ] as const;
 
 export function loadApiKey(): string {

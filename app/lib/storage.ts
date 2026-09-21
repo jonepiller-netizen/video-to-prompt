@@ -4,7 +4,6 @@ const KEY_MODEL = "v2p:gemini_model";
 export const DEFAULT_MODEL = "gemini-3.1-pro-preview";
 
 export const SUPPORTED_MODELS = [
-export const SUPPORTED_MODELS = [
   { id: "gemini-3.1-pro-preview", label: "Gemini 3.1 Pro" },
   { id: "gemini-3.6-flash", label: "Gemini 3.6 Flash" },
 ] as const;
